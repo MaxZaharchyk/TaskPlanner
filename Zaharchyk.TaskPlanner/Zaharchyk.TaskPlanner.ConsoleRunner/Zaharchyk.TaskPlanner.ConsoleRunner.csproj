@@ -50,6 +50,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Zaharchyk.TaskPlanner.DataAccess.Abstractions\Zaharchyk.TaskPlanner.DataAccess.Abstractions.csproj">
+      <Project>{7ad4a4a6-9cf6-47d1-ab53-c9e08192aa37}</Project>
+      <Name>Zaharchyk.TaskPlanner.DataAccess.Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Zaharchyk.TaskPlanner.DataAccess\Zaharchyk.TaskPlanner.DataAccess.csproj">
+      <Project>{9aa68375-2137-4727-9368-ba7dd0307404}</Project>
+      <Name>Zaharchyk.TaskPlanner.DataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Zaharchyk.TaskPlanner.Domain.Logic\Zaharchyk.TaskPlanner.Domain.Logic.csproj">
       <Project>{055c3a85-9ec2-4eff-b704-87ae2e9cce78}</Project>
       <Name>Zaharchyk.TaskPlanner.Domain.Logic</Name>

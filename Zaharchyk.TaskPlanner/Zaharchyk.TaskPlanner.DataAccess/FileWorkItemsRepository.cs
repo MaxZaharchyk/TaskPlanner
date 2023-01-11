@@ -34,7 +34,9 @@ namespace Zaharchyk.TaskPlanner.DataAccess
         }
         public Guid Add(WorkItem workItem)
         {
-            Idictionary.Add(workItem.id, workItem);
+            var clonedItem = workItem.Clone();
+            clonedItem.id = Guid.NewGuid();
+            Idictionary.Add(clonedItem.id, clonedItem);
             return workItem.id;
         }
         public WorkItem Get(Guid id)

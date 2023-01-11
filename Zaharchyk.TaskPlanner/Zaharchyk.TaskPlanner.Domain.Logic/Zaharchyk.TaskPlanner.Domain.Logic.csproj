@@ -45,6 +45,10 @@
     <Compile Include="SimpleTaskPlanner.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Zaharchyk.TaskPlanner.DataAccess.Abstractions\Zaharchyk.TaskPlanner.DataAccess.Abstractions.csproj">
+      <Project>{7ad4a4a6-9cf6-47d1-ab53-c9e08192aa37}</Project>
+      <Name>Zaharchyk.TaskPlanner.DataAccess.Abstractions</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Zaharchyk.TaskPlanner.Domain.Models\Zaharchyk.TaskPlanner.Domain.Models.csproj">
       <Project>{f7adcc74-d196-4cf4-91af-db328d2d8e0e}</Project>
       <Name>Zaharchyk.TaskPlanner.Domain.Models</Name>
