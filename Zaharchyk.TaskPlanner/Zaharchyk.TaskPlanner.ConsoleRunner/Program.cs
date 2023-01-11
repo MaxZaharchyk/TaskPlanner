@@ -65,7 +65,7 @@ namespace Zaharchyk.TaskPlanner.ConsoleRunner
                 }
             }
             workItem.Complexity = Complexity.None;
-            Console.WriteLine("-->Enter DueDate:");
+            Console.WriteLine("Enter DueDate:");
             Console.WriteLine("-->Enter day:"); int day = int.Parse(Console.ReadLine());
             Console.WriteLine("-->Enter mounth:"); int mnth= int.Parse(Console.ReadLine());
             Console.WriteLine("-->Enter year:"); int year = int.Parse(Console.ReadLine());
